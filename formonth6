@@ -5,189 +5,117 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 US_4948, server: 16.162.3.11, port: 30040, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP_2461, server: 3.112.193.158, port: 30040, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3652, server: hinet2.welsonal.xyz, port: 443, type: trojan, password: BoqL2LF4awwqpCsA, sni: hinet2.welsonal.xyz}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  15, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3651, server: hinet1.welsonal.xyz, port: 443, type: trojan, password: Bf775DrodY9LwwEk, sni: hinet1.welsonal.xyz}
-  - {name: 🇳🇱 github.com/freefq - 荷兰  27, server: 46.182.107.44, port: 443, type: vmess, uuid: 33b1f366-4537-437f-b3f6-20b0e0046828, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
-  - {name: 🇨🇦 github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 21, server: t2.ssrsub.one, port: 2096, type: trojan, password: CNd95TWH, sni: t2.ssrsub.one}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952, server: 104.19.40.9, port: 443, type: vmess, uuid: bfc6607d-7aa7-4baf-9c22-bf9fb97b573e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /2yevws, ws-headers: {Host: ccc.1808.cf}}
-  - {name: 🇳🇱 github.com/freefq - 荷兰  28, server: 46.182.107.3, port: 443, type: vmess, uuid: b2aa7a8a-ab88-4c0f-a310-0b9456c69420, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_567, server: t4.ssrsub.one, port: 2096, type: trojan, password: KTxHfpze, sni: t4.ssrsub.one}
-  - {name: 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 44, server: 154.84.1.215, port: 443, type: vmess, uuid: 756f5f10-6bda-4dd0-bf07-5c4d61773611, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: github.com/freefq - 欧盟  49, server: 45.88.179.35, port: 44657, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US_4975, server: 15.184.91.216, port: 55435, type: vmess, uuid: 8d81b746-53ce-45c5-b8a4-dec28a0c5a80, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2845, server: 154.84.1.116, port: 443, type: vmess, uuid: b349f65b-4b19-4255-9ee2-b679990540e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
-  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_3410, server: t6.ssrsub.one, port: 2096, type: trojan, password: GUulsP45, sni: t6.ssrsub.one}
-  - {name: 🇺🇸 US_4945, server: 72.44.74.98, port: 443, type: vmess, uuid: 81295af2-bcd2-0d7e-8bc4-f1367049cf95, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /gafnvws, ws-headers: {Host: 72-44-74-98.wdnmd1145141919810.xyz}}
-  - {name: 🇺🇸 US_4949, server: 16.162.120.7, port: 30040, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: github.com/freefq - 乌克兰  16, server: 5.183.179.94, port: 47148, type: vmess, uuid: 730cb94d-012a-4bfc-aa2a-1573f63e5905, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 Relay_🇰🇷KR-🇺🇸US_2521, server: cfcn.9sep.org, port: 80, type: vmess, uuid: f22a80af-a9c9-3360-841e-25610688f353, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /w421x2bx2za, ws-headers: {Host: nj.sb-cloud.cf}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_4949, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇯🇵 JP_2453, server: 3.112.193.158, port: 30040, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
+  - {name: 🇺🇸 US_77 |231.59Mb, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4972, server: euserv8p.ezddns.tk, port: 80, type: vmess, uuid: 24d6dc76-f0a0-4809-8a70-6ad2dce20022, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv8p.ezddns.tk}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 12, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇯🇵 JP_42 |35.56Mb, server: jp.noic.ml, port: 2309, type: vmess, uuid: d58a968f-1163-4d5e-d22f-b6683300b64f, alterId: 32, cipher: auto, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 US_4948
-      - 🇯🇵 JP_2461
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3652
-      - 🇷🇴 github.com/freefq - 罗马尼亚  15
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3651
-      - 🇳🇱 github.com/freefq - 荷兰  27
-      - 🇨🇦 github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 21
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
-      - 🇳🇱 github.com/freefq - 荷兰  28
-      - Relay_🇨🇦CA-🇨🇦CA_567
-      - 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 44
-      - github.com/freefq - 欧盟  49
-      - 🇺🇸 US_4975
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2845
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_3410
-      - 🇺🇸 US_4945
-      - 🇺🇸 US_4949
-      - github.com/freefq - 乌克兰  16
+      - 🇰🇷 Relay_🇰🇷KR-🇺🇸US_2521
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_4949
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇯🇵 JP_2453
+      - 🇺🇸 US_77 |231.59Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4972
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 12
+      - 🇯🇵 JP_42 |35.56Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 US_4948
-      - 🇯🇵 JP_2461
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3652
-      - 🇷🇴 github.com/freefq - 罗马尼亚  15
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3651
-      - 🇳🇱 github.com/freefq - 荷兰  27
-      - 🇨🇦 github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 21
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
-      - 🇳🇱 github.com/freefq - 荷兰  28
-      - Relay_🇨🇦CA-🇨🇦CA_567
-      - 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 44
-      - github.com/freefq - 欧盟  49
-      - 🇺🇸 US_4975
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2845
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_3410
-      - 🇺🇸 US_4945
-      - 🇺🇸 US_4949
-      - github.com/freefq - 乌克兰  16
+      - 🇰🇷 Relay_🇰🇷KR-🇺🇸US_2521
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_4949
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇯🇵 JP_2453
+      - 🇺🇸 US_77 |231.59Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4972
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 12
+      - 🇯🇵 JP_42 |35.56Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 US_4948
-      - 🇯🇵 JP_2461
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3652
-      - 🇷🇴 github.com/freefq - 罗马尼亚  15
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3651
-      - 🇳🇱 github.com/freefq - 荷兰  27
-      - 🇨🇦 github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 21
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
-      - 🇳🇱 github.com/freefq - 荷兰  28
-      - Relay_🇨🇦CA-🇨🇦CA_567
-      - 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 44
-      - github.com/freefq - 欧盟  49
-      - 🇺🇸 US_4975
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2845
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_3410
-      - 🇺🇸 US_4945
-      - 🇺🇸 US_4949
-      - github.com/freefq - 乌克兰  16
+      - 🇰🇷 Relay_🇰🇷KR-🇺🇸US_2521
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_4949
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇯🇵 JP_2453
+      - 🇺🇸 US_77 |231.59Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4972
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 12
+      - 🇯🇵 JP_42 |35.56Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 US_4948
-      - 🇯🇵 JP_2461
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3652
-      - 🇷🇴 github.com/freefq - 罗马尼亚  15
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3651
-      - 🇳🇱 github.com/freefq - 荷兰  27
-      - 🇨🇦 github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 21
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
-      - 🇳🇱 github.com/freefq - 荷兰  28
-      - Relay_🇨🇦CA-🇨🇦CA_567
-      - 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 44
-      - github.com/freefq - 欧盟  49
-      - 🇺🇸 US_4975
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2845
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_3410
-      - 🇺🇸 US_4945
-      - 🇺🇸 US_4949
-      - github.com/freefq - 乌克兰  16
+      - 🇰🇷 Relay_🇰🇷KR-🇺🇸US_2521
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_4949
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇯🇵 JP_2453
+      - 🇺🇸 US_77 |231.59Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4972
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 12
+      - 🇯🇵 JP_42 |35.56Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 US_4948
-      - 🇯🇵 JP_2461
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3652
-      - 🇷🇴 github.com/freefq - 罗马尼亚  15
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3651
-      - 🇳🇱 github.com/freefq - 荷兰  27
-      - 🇨🇦 github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 21
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
-      - 🇳🇱 github.com/freefq - 荷兰  28
-      - Relay_🇨🇦CA-🇨🇦CA_567
-      - 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 44
-      - github.com/freefq - 欧盟  49
-      - 🇺🇸 US_4975
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2845
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_3410
-      - 🇺🇸 US_4945
-      - 🇺🇸 US_4949
-      - github.com/freefq - 乌克兰  16
+      - 🇰🇷 Relay_🇰🇷KR-🇺🇸US_2521
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_4949
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇯🇵 JP_2453
+      - 🇺🇸 US_77 |231.59Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4972
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 12
+      - 🇯🇵 JP_42 |35.56Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 US_4948
-      - 🇯🇵 JP_2461
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3652
-      - 🇷🇴 github.com/freefq - 罗马尼亚  15
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3651
-      - 🇳🇱 github.com/freefq - 荷兰  27
-      - 🇨🇦 github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 21
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
-      - 🇳🇱 github.com/freefq - 荷兰  28
-      - Relay_🇨🇦CA-🇨🇦CA_567
-      - 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 44
-      - github.com/freefq - 欧盟  49
-      - 🇺🇸 US_4975
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2845
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_3410
-      - 🇺🇸 US_4945
-      - 🇺🇸 US_4949
-      - github.com/freefq - 乌克兰  16
+      - 🇰🇷 Relay_🇰🇷KR-🇺🇸US_2521
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_4949
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇯🇵 JP_2453
+      - 🇺🇸 US_77 |231.59Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4972
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 12
+      - 🇯🇵 JP_42 |35.56Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US_4948
-      - 🇯🇵 JP_2461
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3652
-      - 🇷🇴 github.com/freefq - 罗马尼亚  15
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3651
-      - 🇳🇱 github.com/freefq - 荷兰  27
-      - 🇨🇦 github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 21
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
-      - 🇳🇱 github.com/freefq - 荷兰  28
-      - Relay_🇨🇦CA-🇨🇦CA_567
-      - 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 44
-      - github.com/freefq - 欧盟  49
-      - 🇺🇸 US_4975
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2845
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_3410
-      - 🇺🇸 US_4945
-      - 🇺🇸 US_4949
-      - github.com/freefq - 乌克兰  16
+      - 🇰🇷 Relay_🇰🇷KR-🇺🇸US_2521
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_4949
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇯🇵 JP_2453
+      - 🇺🇸 US_77 |231.59Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4972
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 12
+      - 🇯🇵 JP_42 |35.56Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -210,24 +138,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 US_4948
-      - 🇯🇵 JP_2461
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3652
-      - 🇷🇴 github.com/freefq - 罗马尼亚  15
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_3651
-      - 🇳🇱 github.com/freefq - 荷兰  27
-      - 🇨🇦 github.com/freefq - 加拿大安大略省基奇纳DataCity数据中心 21
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
-      - 🇳🇱 github.com/freefq - 荷兰  28
-      - Relay_🇨🇦CA-🇨🇦CA_567
-      - 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 44
-      - github.com/freefq - 欧盟  49
-      - 🇺🇸 US_4975
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2845
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_3410
-      - 🇺🇸 US_4945
-      - 🇺🇸 US_4949
-      - github.com/freefq - 乌克兰  16
+      - 🇰🇷 Relay_🇰🇷KR-🇺🇸US_2521
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4963
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_4949
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
+      - 🇯🇵 JP_2453
+      - 🇺🇸 US_77 |231.59Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4972
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 12
+      - 🇯🇵 JP_42 |35.56Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
