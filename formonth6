@@ -5,637 +5,277 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 github.com/freefq - 美国  22, server: 45.134.224.15, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 31, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5001, server: us09.xqkj.cloud, port: 1039, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us09.xqkj.cloud}}
-  - {name: 🇳🇱 Pool_🇳🇱NL_2909, server: 46.182.107.146, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2912, server: 154.84.1.116, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd3588, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
-  - {name: Relay_🇮🇳IN-🇮🇳IN_2238, server: ind02.xqkj.cloud, port: 1052, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ind02.xqkj.cloud}}
-  - {name: GB_1911, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇴 github.com/freefq - 罗马尼亚  6, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 US_58 |27.31Mb, server: 23.225.28.172, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
-  - {name: 🇳🇱 NL_42 |52.98Mb, server: 46.182.107.147, port: 443, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a539467bc7a7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73207635.xyz}}
-  - {name: PL_3040, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3544, server: sg.rapeamazon.ml, port: 443, type: vmess, uuid: 78405ab3-fe5a-4743-978a-078034b3790a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bdff, ws-headers: {Host: sg.rapeamazon.ml}}
-  - {name: Relay_🇮🇳IN-🇮🇳IN_2239, server: ind01.xqkj.cloud, port: 1051, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ind01.xqkj.cloud}}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3551, server: trojan-sb-95-tw.speedtestcustom.tk, port: 443, type: trojan, password: 76f5c50900006f6674ad8c443b39edd5, sni: trojan-sb-95-tw.speedtestcustom.tk}
-  - {name: 🇺🇸 github.com/freefq - 美国  5, server: 148.72.169.213, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 US_60 | 9.04Mb, server: 45.88.179.35, port: 44657, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4999, server: us01.xqkj.cloud, port: 1031, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us01.xqkj.cloud}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4998, server: us13.xqkj.cloud, port: 1043, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us13.xqkj.cloud}}
-  - {name: 🇩🇪 DE_934, server: 5.183.179.94, port: 47148, type: vmess, uuid: 730cb94d-012a-4bfc-aa2a-1573f63e5905, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 Relay_🇺🇸US-🇯🇵JP_4948, server: 104.19.1.168, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-jp1.ooxc.cc}}
+  - {name: 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 36, server: cn.linn.ink, port: 20020, type: ss, cipher: chacha20-ietf-poly1305, password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb}
+  - {name: 🇰🇷 KR_24 |30.98Mb, server: 15.164.227.247, port: 10891, type: vmess, uuid: 62affe81-79f0-4c07-ed18-a69b97081542, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 4, server: t7.ssrsub.one, port: 443, type: trojan, password: QgMSj7Zi, sni: t7.ssrsub.one}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_571, server: dld02.xqkj.cloud, port: 1072, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld02.xqkj.cloud}}
-  - {name: 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_929, server: us05.xqkj.cloud, port: 1035, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us05.xqkj.cloud}}
-  - {name: 🇩🇪 DE_935, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US_64 |23.56Mb, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇷🇺 RU_3476, server: 80.85.156.31, port: 40331, type: vmess, uuid: f3dc16e3-715c-4839-abd3-8e0c6df46064, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_5009, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5018, server: euserv6p.ezddns.tk, port: 80, type: vmess, uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv6p.ezddns.tk}}
-  - {name: 🇳🇱 github.com/freefq - 荷兰  17, server: 46.182.107.153, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26111a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇺🇸US_3545, server: v2.linn.ink, port: 30060, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE_23 | 5.40Mb, server: 18.193.122.123, port: 25275, type: vmess, uuid: eebfe76a-c71f-49e4-f983-983384d5dadf, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇺 RU_3475, server: 45.135.135.93, port: 8080, type: vmess, uuid: 884688eb-d63b-4186-961d-f3b5deac45de, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: m.t.17186.cn}}
-  - {name: github.com/freefq - 欧洲  8, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 Relay_🇺🇸US-🏁ZZ_5028, server: Anycast02.v2cy.com, port: 80, type: vmess, uuid: 586fb889-61ee-42d9-b374-c1440b0a0664, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dn-aiznku2t.cn2.run.gxu.edu.cn}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5024, server: usa4a-node.3366test.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa4a-node.3366test.com}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5003, server: us07.xqkj.cloud, port: 1037, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us07.xqkj.cloud}}
-  - {name: 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 20, server: a6.ssrsub.one, port: 8443, type: trojan, password: 5hE4y8tM, sni: a6.ssrsub.one}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_570, server: dld01.xqkj.cloud, port: 1071, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld01.xqkj.cloud}}
-  - {name: 🇺🇸 US_69 | 7.68Mb, server: euserv5p.ezddns.tk, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5015, server: 23.224.30.74, port: 443, type: vmess, uuid: 2834e187-5f34-4527-a436-df7682a89975, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.74647691.xyz}}
-  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_661, server: 4733.ddns.inli.cloud, port: 30504, type: vmess, uuid: 9afbb703-c486-39b1-9cd6-abdd430973e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 4733.ddns.inli.cloud}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5023, server: 198.2.200.217, port: 443, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/290516321830, ws-headers: {Host: www.48168443.xyz}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5002, server: us03.xqkj.cloud, port: 1033, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us03.xqkj.cloud}}
-  - {name: github.com/freefq - 波兰  42, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2914, server: 46.182.107.98, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f077621b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.08538470.xyz}}
-  - {name: 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_930, server: us04.xqkj.cloud, port: 1034, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us04.xqkj.cloud}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5004, server: us08.xqkj.cloud, port: 1038, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us08.xqkj.cloud}}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_1913, server: ld02.xqkj.cloud, port: 1062, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ld02.xqkj.cloud}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5000, server: us02.xqkj.cloud, port: 1032, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us02.xqkj.cloud}}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3547, server: sg03.xqkj.cloud, port: 1083, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sg03.xqkj.cloud}}
-  - {name: github.com/freefq - 波兰  22, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3546, server: sg01.xqkj.cloud, port: 1081, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sg01.xqkj.cloud}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5033, server: 23.225.125.195, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/301109172001, ws-headers: {Host: www.91370744.xyz}}
-  - {name: 🇯🇵 JP_2454, server: 175.41.204.200, port: 30060, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5035, server: anycast02.v2cy.com, port: 80, type: vmess, uuid: 586fb889-61ee-42d9-b374-c1440b0a0664, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dn-o0f42gbt.cn2.run.gxu.edu.cn}}
-  - {name: 🇺🇸 github.com/freefq - 美国弗吉尼亚州博伊顿Microsoft数据中心 33, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US_4995, server: 16.162.120.7, port: 30060, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2419, server: jp.rapeamazon.ml, port: 443, type: vmess, uuid: 7a2592e8-28d9-4972-8788-4601e09f27c4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ewfd, ws-headers: {Host: jp.rapeamazon.ml}}
+  - {name: 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3, server: a7.ssrsub.one, port: 8443, type: trojan, password: kBFMVjsv, sni: a7.ssrsub.one}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4951, server: 23.225.125.195, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/301109172001, ws-headers: {Host: www.91370744.xyz}}
+  - {name: 🇷🇺 RU_37 | 3.49Mb, server: 80.85.156.31, port: 40331, type: vmess, uuid: f3dc16e3-715c-4839-abd3-8e0c6df46064, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Pool_🇳🇱NL_2868, server: 46.182.107.146, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
+  - {name: 🇺🇸 US_50 | 6.14Mb, server: 152.67.225.114, port: 23456, type: vmess, uuid: 86e46276-7b5a-445e-8a66-1f3ec592fc8f, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /cs, ws-headers: {Host: 152.67.225.114}}
+  - {name: PL_2990, server: 95.214.55.118, port: 50825, type: vmess, uuid: 0cfb1063-051e-4a56-ccac-27947710ea0e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4953, server: usa4a-node.3366test.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa4a-node.3366test.com}}
   - {name: 🇷🇺 github.com/freefq - 俄罗斯  44, server: 80.85.156.31, port: 40331, type: vmess, uuid: f3dc16e3-715c-4839-abd3-8e0c6df46064, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_1912, server: ld01.xqkj.cloud, port: 1061, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ld01.xqkj.cloud}}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_569, server: dld03.xqkj.cloud, port: 1073, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dld03.xqkj.cloud}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5038, server: a7.ssrsub.one, port: 8443, type: trojan, password: kBFMVjsv, sni: a7.ssrsub.one}
-  - {name: 🇮🇳 github.com/freefq - 印度  26, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3543, server: sg02.xqkj.cloud, port: 1082, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sg02.xqkj.cloud}}
-  - {name: 🇺🇸 US_59 | 7.68Mb, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
-  - {name: 🇮🇳 github.com/freefq - 印度  28, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4997, server: us12.xqkj.cloud, port: 1042, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us12.xqkj.cloud}}
-  - {name: 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_931, server: us06.xqkj.cloud, port: 1036, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us06.xqkj.cloud}}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_1910, server: ld03.xqkj.cloud, port: 1063, type: vmess, uuid: 0bde6e58-e188-4a9d-8104-5729de0928b9, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ld03.xqkj.cloud}}
-  - {name: 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 43, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US_5027, server: 173.230.146.234, port: 36788, type: vmess, uuid: B22C2F57-0189-25E7-79FA-90717E212748, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 173.230.146.234}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5016, server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
-  - {name: 🇺🇸 US_5013, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2913, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
-  - {name: 🇺🇸 github.com/freefq - 美国Amazon数据中心 39, server: 18.193.122.123, port: 25275, type: vmess, uuid: eebfe76a-c71f-49e4-f983-983384d5dadf, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_5020, server: euserv8p.ezddns.tk, port: 80, type: vmess, uuid: 24d6dc76-f0a0-4809-8a70-6ad2dce20022, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv8p.ezddns.tk}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4957, server: 198.2.200.217, port: 443, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/290516321830, ws-headers: {Host: www.48168443.xyz}}
+  - {name: 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_646, server: tk.shcn2.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: zxjp-b.tkong.cc}}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  40, server: a8.ssrsub.one, port: 8443, type: trojan, password: YOR8hMHi, sni: a8.ssrsub.one}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  37, server: t8.ssrsub.one, port: 443, type: trojan, password: QiFPnHKv, sni: t8.ssrsub.one}
+  - {name: 🇩🇪 DE_903, server: 5.183.179.94, port: 47148, type: vmess, uuid: 730cb94d-012a-4bfc-aa2a-1573f63e5905, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2861, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952, server: 23.225.28.172, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
+  - {name: 🇯🇵 JP_2418, server: 3.112.193.158, port: 30060, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 25, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: github.com/freefq - 欧洲  8, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 US_4960, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
+  - {name: 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2863, server: 154.84.1.116, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd3588, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
+  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_642, server: jsdx.v2cy.com, port: 80, type: vmess, uuid: 586fb889-61ee-42d9-b374-c1440b0a0664, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dn-7dp8osc1.cn2.run.gxu.edu.cn}}
+  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_647, server: 4733.ddns.inli.cloud, port: 30504, type: vmess, uuid: 9afbb703-c486-39b1-9cd6-abdd430973e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 4733.ddns.inli.cloud}}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯莫斯科JustHost 1, server: 45.135.135.93, port: 8080, type: vmess, uuid: 884688eb-d63b-4186-961d-f3b5deac45de, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: m.t.17186.cn}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964, server: euserv5p.ezddns.tk, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 github.com/freefq - 美国  22
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5001
-      - 🇳🇱 Pool_🇳🇱NL_2909
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2912
-      - Relay_🇮🇳IN-🇮🇳IN_2238
-      - GB_1911
-      - 🇷🇴 github.com/freefq - 罗马尼亚  6
-      - 🇺🇸 US_58 |27.31Mb
-      - 🇳🇱 NL_42 |52.98Mb
-      - PL_3040
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3544
-      - Relay_🇮🇳IN-🇮🇳IN_2239
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3551
-      - 🇺🇸 github.com/freefq - 美国  5
-      - 🇺🇸 US_60 | 9.04Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4999
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4998
-      - 🇩🇪 DE_934
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_4948
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 36
+      - 🇰🇷 KR_24 |30.98Mb
       - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 4
-      - Relay_🇨🇦CA-🇨🇦CA_571
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_929
-      - 🇩🇪 DE_935
-      - 🇺🇸 US_64 |23.56Mb
-      - 🇷🇺 RU_3476
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_5009
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5018
-      - 🇳🇱 github.com/freefq - 荷兰  17
-      - 🇸🇬 Relay_🇸🇬SG-🇺🇸US_3545
-      - 🇩🇪 DE_23 | 5.40Mb
-      - 🇷🇺 RU_3475
-      - github.com/freefq - 欧洲  8
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_5028
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5024
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5003
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 20
-      - Relay_🇨🇦CA-🇨🇦CA_570
-      - 🇺🇸 US_69 | 7.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5015
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_661
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5023
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5002
-      - github.com/freefq - 波兰  42
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2914
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_930
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5004
-      - Relay_🇬🇧GB-🇬🇧GB_1913
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5000
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3547
-      - github.com/freefq - 波兰  22
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3546
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5033
-      - 🇯🇵 JP_2454
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5035
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州博伊顿Microsoft数据中心 33
-      - 🇺🇸 US_4995
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2419
+      - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4951
+      - 🇷🇺 RU_37 | 3.49Mb
+      - 🇳🇱 Pool_🇳🇱NL_2868
+      - 🇺🇸 US_50 | 6.14Mb
+      - PL_2990
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4953
       - 🇷🇺 github.com/freefq - 俄罗斯  44
-      - Relay_🇬🇧GB-🇬🇧GB_1912
-      - Relay_🇨🇦CA-🇨🇦CA_569
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5038
-      - 🇮🇳 github.com/freefq - 印度  26
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3543
-      - 🇺🇸 US_59 | 7.68Mb
-      - 🇮🇳 github.com/freefq - 印度  28
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4997
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_931
-      - Relay_🇬🇧GB-🇬🇧GB_1910
-      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 43
-      - 🇺🇸 US_5027
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5016
-      - 🇺🇸 US_5013
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2913
-      - 🇺🇸 github.com/freefq - 美国Amazon数据中心 39
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5020
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4957
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_646
+      - 🇷🇺 github.com/freefq - 俄罗斯  40
+      - 🇷🇺 github.com/freefq - 俄罗斯  37
+      - 🇩🇪 DE_903
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2861
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
+      - 🇯🇵 JP_2418
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 欧洲  8
+      - 🇺🇸 US_4960
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2863
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_642
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_647
+      - 🇷🇺 github.com/freefq - 俄罗斯莫斯科JustHost 1
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 github.com/freefq - 美国  22
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5001
-      - 🇳🇱 Pool_🇳🇱NL_2909
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2912
-      - Relay_🇮🇳IN-🇮🇳IN_2238
-      - GB_1911
-      - 🇷🇴 github.com/freefq - 罗马尼亚  6
-      - 🇺🇸 US_58 |27.31Mb
-      - 🇳🇱 NL_42 |52.98Mb
-      - PL_3040
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3544
-      - Relay_🇮🇳IN-🇮🇳IN_2239
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3551
-      - 🇺🇸 github.com/freefq - 美国  5
-      - 🇺🇸 US_60 | 9.04Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4999
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4998
-      - 🇩🇪 DE_934
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_4948
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 36
+      - 🇰🇷 KR_24 |30.98Mb
       - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 4
-      - Relay_🇨🇦CA-🇨🇦CA_571
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_929
-      - 🇩🇪 DE_935
-      - 🇺🇸 US_64 |23.56Mb
-      - 🇷🇺 RU_3476
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_5009
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5018
-      - 🇳🇱 github.com/freefq - 荷兰  17
-      - 🇸🇬 Relay_🇸🇬SG-🇺🇸US_3545
-      - 🇩🇪 DE_23 | 5.40Mb
-      - 🇷🇺 RU_3475
-      - github.com/freefq - 欧洲  8
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_5028
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5024
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5003
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 20
-      - Relay_🇨🇦CA-🇨🇦CA_570
-      - 🇺🇸 US_69 | 7.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5015
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_661
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5023
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5002
-      - github.com/freefq - 波兰  42
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2914
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_930
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5004
-      - Relay_🇬🇧GB-🇬🇧GB_1913
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5000
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3547
-      - github.com/freefq - 波兰  22
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3546
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5033
-      - 🇯🇵 JP_2454
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5035
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州博伊顿Microsoft数据中心 33
-      - 🇺🇸 US_4995
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2419
+      - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4951
+      - 🇷🇺 RU_37 | 3.49Mb
+      - 🇳🇱 Pool_🇳🇱NL_2868
+      - 🇺🇸 US_50 | 6.14Mb
+      - PL_2990
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4953
       - 🇷🇺 github.com/freefq - 俄罗斯  44
-      - Relay_🇬🇧GB-🇬🇧GB_1912
-      - Relay_🇨🇦CA-🇨🇦CA_569
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5038
-      - 🇮🇳 github.com/freefq - 印度  26
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3543
-      - 🇺🇸 US_59 | 7.68Mb
-      - 🇮🇳 github.com/freefq - 印度  28
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4997
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_931
-      - Relay_🇬🇧GB-🇬🇧GB_1910
-      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 43
-      - 🇺🇸 US_5027
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5016
-      - 🇺🇸 US_5013
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2913
-      - 🇺🇸 github.com/freefq - 美国Amazon数据中心 39
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5020
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4957
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_646
+      - 🇷🇺 github.com/freefq - 俄罗斯  40
+      - 🇷🇺 github.com/freefq - 俄罗斯  37
+      - 🇩🇪 DE_903
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2861
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
+      - 🇯🇵 JP_2418
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 欧洲  8
+      - 🇺🇸 US_4960
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2863
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_642
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_647
+      - 🇷🇺 github.com/freefq - 俄罗斯莫斯科JustHost 1
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国  22
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5001
-      - 🇳🇱 Pool_🇳🇱NL_2909
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2912
-      - Relay_🇮🇳IN-🇮🇳IN_2238
-      - GB_1911
-      - 🇷🇴 github.com/freefq - 罗马尼亚  6
-      - 🇺🇸 US_58 |27.31Mb
-      - 🇳🇱 NL_42 |52.98Mb
-      - PL_3040
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3544
-      - Relay_🇮🇳IN-🇮🇳IN_2239
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3551
-      - 🇺🇸 github.com/freefq - 美国  5
-      - 🇺🇸 US_60 | 9.04Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4999
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4998
-      - 🇩🇪 DE_934
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_4948
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 36
+      - 🇰🇷 KR_24 |30.98Mb
       - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 4
-      - Relay_🇨🇦CA-🇨🇦CA_571
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_929
-      - 🇩🇪 DE_935
-      - 🇺🇸 US_64 |23.56Mb
-      - 🇷🇺 RU_3476
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_5009
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5018
-      - 🇳🇱 github.com/freefq - 荷兰  17
-      - 🇸🇬 Relay_🇸🇬SG-🇺🇸US_3545
-      - 🇩🇪 DE_23 | 5.40Mb
-      - 🇷🇺 RU_3475
-      - github.com/freefq - 欧洲  8
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_5028
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5024
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5003
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 20
-      - Relay_🇨🇦CA-🇨🇦CA_570
-      - 🇺🇸 US_69 | 7.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5015
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_661
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5023
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5002
-      - github.com/freefq - 波兰  42
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2914
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_930
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5004
-      - Relay_🇬🇧GB-🇬🇧GB_1913
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5000
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3547
-      - github.com/freefq - 波兰  22
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3546
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5033
-      - 🇯🇵 JP_2454
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5035
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州博伊顿Microsoft数据中心 33
-      - 🇺🇸 US_4995
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2419
+      - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4951
+      - 🇷🇺 RU_37 | 3.49Mb
+      - 🇳🇱 Pool_🇳🇱NL_2868
+      - 🇺🇸 US_50 | 6.14Mb
+      - PL_2990
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4953
       - 🇷🇺 github.com/freefq - 俄罗斯  44
-      - Relay_🇬🇧GB-🇬🇧GB_1912
-      - Relay_🇨🇦CA-🇨🇦CA_569
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5038
-      - 🇮🇳 github.com/freefq - 印度  26
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3543
-      - 🇺🇸 US_59 | 7.68Mb
-      - 🇮🇳 github.com/freefq - 印度  28
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4997
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_931
-      - Relay_🇬🇧GB-🇬🇧GB_1910
-      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 43
-      - 🇺🇸 US_5027
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5016
-      - 🇺🇸 US_5013
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2913
-      - 🇺🇸 github.com/freefq - 美国Amazon数据中心 39
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5020
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4957
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_646
+      - 🇷🇺 github.com/freefq - 俄罗斯  40
+      - 🇷🇺 github.com/freefq - 俄罗斯  37
+      - 🇩🇪 DE_903
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2861
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
+      - 🇯🇵 JP_2418
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 欧洲  8
+      - 🇺🇸 US_4960
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2863
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_642
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_647
+      - 🇷🇺 github.com/freefq - 俄罗斯莫斯科JustHost 1
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国  22
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5001
-      - 🇳🇱 Pool_🇳🇱NL_2909
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2912
-      - Relay_🇮🇳IN-🇮🇳IN_2238
-      - GB_1911
-      - 🇷🇴 github.com/freefq - 罗马尼亚  6
-      - 🇺🇸 US_58 |27.31Mb
-      - 🇳🇱 NL_42 |52.98Mb
-      - PL_3040
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3544
-      - Relay_🇮🇳IN-🇮🇳IN_2239
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3551
-      - 🇺🇸 github.com/freefq - 美国  5
-      - 🇺🇸 US_60 | 9.04Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4999
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4998
-      - 🇩🇪 DE_934
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_4948
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 36
+      - 🇰🇷 KR_24 |30.98Mb
       - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 4
-      - Relay_🇨🇦CA-🇨🇦CA_571
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_929
-      - 🇩🇪 DE_935
-      - 🇺🇸 US_64 |23.56Mb
-      - 🇷🇺 RU_3476
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_5009
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5018
-      - 🇳🇱 github.com/freefq - 荷兰  17
-      - 🇸🇬 Relay_🇸🇬SG-🇺🇸US_3545
-      - 🇩🇪 DE_23 | 5.40Mb
-      - 🇷🇺 RU_3475
-      - github.com/freefq - 欧洲  8
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_5028
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5024
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5003
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 20
-      - Relay_🇨🇦CA-🇨🇦CA_570
-      - 🇺🇸 US_69 | 7.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5015
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_661
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5023
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5002
-      - github.com/freefq - 波兰  42
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2914
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_930
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5004
-      - Relay_🇬🇧GB-🇬🇧GB_1913
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5000
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3547
-      - github.com/freefq - 波兰  22
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3546
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5033
-      - 🇯🇵 JP_2454
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5035
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州博伊顿Microsoft数据中心 33
-      - 🇺🇸 US_4995
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2419
+      - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4951
+      - 🇷🇺 RU_37 | 3.49Mb
+      - 🇳🇱 Pool_🇳🇱NL_2868
+      - 🇺🇸 US_50 | 6.14Mb
+      - PL_2990
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4953
       - 🇷🇺 github.com/freefq - 俄罗斯  44
-      - Relay_🇬🇧GB-🇬🇧GB_1912
-      - Relay_🇨🇦CA-🇨🇦CA_569
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5038
-      - 🇮🇳 github.com/freefq - 印度  26
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3543
-      - 🇺🇸 US_59 | 7.68Mb
-      - 🇮🇳 github.com/freefq - 印度  28
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4997
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_931
-      - Relay_🇬🇧GB-🇬🇧GB_1910
-      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 43
-      - 🇺🇸 US_5027
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5016
-      - 🇺🇸 US_5013
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2913
-      - 🇺🇸 github.com/freefq - 美国Amazon数据中心 39
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5020
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4957
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_646
+      - 🇷🇺 github.com/freefq - 俄罗斯  40
+      - 🇷🇺 github.com/freefq - 俄罗斯  37
+      - 🇩🇪 DE_903
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2861
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
+      - 🇯🇵 JP_2418
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 欧洲  8
+      - 🇺🇸 US_4960
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2863
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_642
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_647
+      - 🇷🇺 github.com/freefq - 俄罗斯莫斯科JustHost 1
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 github.com/freefq - 美国  22
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5001
-      - 🇳🇱 Pool_🇳🇱NL_2909
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2912
-      - Relay_🇮🇳IN-🇮🇳IN_2238
-      - GB_1911
-      - 🇷🇴 github.com/freefq - 罗马尼亚  6
-      - 🇺🇸 US_58 |27.31Mb
-      - 🇳🇱 NL_42 |52.98Mb
-      - PL_3040
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3544
-      - Relay_🇮🇳IN-🇮🇳IN_2239
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3551
-      - 🇺🇸 github.com/freefq - 美国  5
-      - 🇺🇸 US_60 | 9.04Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4999
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4998
-      - 🇩🇪 DE_934
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_4948
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 36
+      - 🇰🇷 KR_24 |30.98Mb
       - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 4
-      - Relay_🇨🇦CA-🇨🇦CA_571
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_929
-      - 🇩🇪 DE_935
-      - 🇺🇸 US_64 |23.56Mb
-      - 🇷🇺 RU_3476
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_5009
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5018
-      - 🇳🇱 github.com/freefq - 荷兰  17
-      - 🇸🇬 Relay_🇸🇬SG-🇺🇸US_3545
-      - 🇩🇪 DE_23 | 5.40Mb
-      - 🇷🇺 RU_3475
-      - github.com/freefq - 欧洲  8
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_5028
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5024
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5003
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 20
-      - Relay_🇨🇦CA-🇨🇦CA_570
-      - 🇺🇸 US_69 | 7.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5015
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_661
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5023
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5002
-      - github.com/freefq - 波兰  42
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2914
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_930
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5004
-      - Relay_🇬🇧GB-🇬🇧GB_1913
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5000
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3547
-      - github.com/freefq - 波兰  22
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3546
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5033
-      - 🇯🇵 JP_2454
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5035
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州博伊顿Microsoft数据中心 33
-      - 🇺🇸 US_4995
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2419
+      - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4951
+      - 🇷🇺 RU_37 | 3.49Mb
+      - 🇳🇱 Pool_🇳🇱NL_2868
+      - 🇺🇸 US_50 | 6.14Mb
+      - PL_2990
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4953
       - 🇷🇺 github.com/freefq - 俄罗斯  44
-      - Relay_🇬🇧GB-🇬🇧GB_1912
-      - Relay_🇨🇦CA-🇨🇦CA_569
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5038
-      - 🇮🇳 github.com/freefq - 印度  26
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3543
-      - 🇺🇸 US_59 | 7.68Mb
-      - 🇮🇳 github.com/freefq - 印度  28
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4997
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_931
-      - Relay_🇬🇧GB-🇬🇧GB_1910
-      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 43
-      - 🇺🇸 US_5027
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5016
-      - 🇺🇸 US_5013
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2913
-      - 🇺🇸 github.com/freefq - 美国Amazon数据中心 39
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5020
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4957
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_646
+      - 🇷🇺 github.com/freefq - 俄罗斯  40
+      - 🇷🇺 github.com/freefq - 俄罗斯  37
+      - 🇩🇪 DE_903
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2861
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
+      - 🇯🇵 JP_2418
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 欧洲  8
+      - 🇺🇸 US_4960
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2863
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_642
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_647
+      - 🇷🇺 github.com/freefq - 俄罗斯莫斯科JustHost 1
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国  22
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5001
-      - 🇳🇱 Pool_🇳🇱NL_2909
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2912
-      - Relay_🇮🇳IN-🇮🇳IN_2238
-      - GB_1911
-      - 🇷🇴 github.com/freefq - 罗马尼亚  6
-      - 🇺🇸 US_58 |27.31Mb
-      - 🇳🇱 NL_42 |52.98Mb
-      - PL_3040
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3544
-      - Relay_🇮🇳IN-🇮🇳IN_2239
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3551
-      - 🇺🇸 github.com/freefq - 美国  5
-      - 🇺🇸 US_60 | 9.04Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4999
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4998
-      - 🇩🇪 DE_934
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_4948
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 36
+      - 🇰🇷 KR_24 |30.98Mb
       - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 4
-      - Relay_🇨🇦CA-🇨🇦CA_571
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_929
-      - 🇩🇪 DE_935
-      - 🇺🇸 US_64 |23.56Mb
-      - 🇷🇺 RU_3476
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_5009
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5018
-      - 🇳🇱 github.com/freefq - 荷兰  17
-      - 🇸🇬 Relay_🇸🇬SG-🇺🇸US_3545
-      - 🇩🇪 DE_23 | 5.40Mb
-      - 🇷🇺 RU_3475
-      - github.com/freefq - 欧洲  8
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_5028
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5024
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5003
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 20
-      - Relay_🇨🇦CA-🇨🇦CA_570
-      - 🇺🇸 US_69 | 7.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5015
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_661
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5023
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5002
-      - github.com/freefq - 波兰  42
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2914
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_930
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5004
-      - Relay_🇬🇧GB-🇬🇧GB_1913
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5000
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3547
-      - github.com/freefq - 波兰  22
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3546
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5033
-      - 🇯🇵 JP_2454
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5035
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州博伊顿Microsoft数据中心 33
-      - 🇺🇸 US_4995
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2419
+      - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4951
+      - 🇷🇺 RU_37 | 3.49Mb
+      - 🇳🇱 Pool_🇳🇱NL_2868
+      - 🇺🇸 US_50 | 6.14Mb
+      - PL_2990
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4953
       - 🇷🇺 github.com/freefq - 俄罗斯  44
-      - Relay_🇬🇧GB-🇬🇧GB_1912
-      - Relay_🇨🇦CA-🇨🇦CA_569
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5038
-      - 🇮🇳 github.com/freefq - 印度  26
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3543
-      - 🇺🇸 US_59 | 7.68Mb
-      - 🇮🇳 github.com/freefq - 印度  28
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4997
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_931
-      - Relay_🇬🇧GB-🇬🇧GB_1910
-      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 43
-      - 🇺🇸 US_5027
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5016
-      - 🇺🇸 US_5013
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2913
-      - 🇺🇸 github.com/freefq - 美国Amazon数据中心 39
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5020
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4957
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_646
+      - 🇷🇺 github.com/freefq - 俄罗斯  40
+      - 🇷🇺 github.com/freefq - 俄罗斯  37
+      - 🇩🇪 DE_903
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2861
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
+      - 🇯🇵 JP_2418
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 欧洲  8
+      - 🇺🇸 US_4960
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2863
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_642
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_647
+      - 🇷🇺 github.com/freefq - 俄罗斯莫斯科JustHost 1
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 github.com/freefq - 美国  22
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5001
-      - 🇳🇱 Pool_🇳🇱NL_2909
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2912
-      - Relay_🇮🇳IN-🇮🇳IN_2238
-      - GB_1911
-      - 🇷🇴 github.com/freefq - 罗马尼亚  6
-      - 🇺🇸 US_58 |27.31Mb
-      - 🇳🇱 NL_42 |52.98Mb
-      - PL_3040
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3544
-      - Relay_🇮🇳IN-🇮🇳IN_2239
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3551
-      - 🇺🇸 github.com/freefq - 美国  5
-      - 🇺🇸 US_60 | 9.04Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4999
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4998
-      - 🇩🇪 DE_934
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_4948
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 36
+      - 🇰🇷 KR_24 |30.98Mb
       - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 4
-      - Relay_🇨🇦CA-🇨🇦CA_571
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_929
-      - 🇩🇪 DE_935
-      - 🇺🇸 US_64 |23.56Mb
-      - 🇷🇺 RU_3476
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_5009
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5018
-      - 🇳🇱 github.com/freefq - 荷兰  17
-      - 🇸🇬 Relay_🇸🇬SG-🇺🇸US_3545
-      - 🇩🇪 DE_23 | 5.40Mb
-      - 🇷🇺 RU_3475
-      - github.com/freefq - 欧洲  8
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_5028
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5024
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5003
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 20
-      - Relay_🇨🇦CA-🇨🇦CA_570
-      - 🇺🇸 US_69 | 7.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5015
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_661
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5023
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5002
-      - github.com/freefq - 波兰  42
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2914
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_930
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5004
-      - Relay_🇬🇧GB-🇬🇧GB_1913
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5000
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3547
-      - github.com/freefq - 波兰  22
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3546
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5033
-      - 🇯🇵 JP_2454
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5035
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州博伊顿Microsoft数据中心 33
-      - 🇺🇸 US_4995
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2419
+      - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4951
+      - 🇷🇺 RU_37 | 3.49Mb
+      - 🇳🇱 Pool_🇳🇱NL_2868
+      - 🇺🇸 US_50 | 6.14Mb
+      - PL_2990
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4953
       - 🇷🇺 github.com/freefq - 俄罗斯  44
-      - Relay_🇬🇧GB-🇬🇧GB_1912
-      - Relay_🇨🇦CA-🇨🇦CA_569
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5038
-      - 🇮🇳 github.com/freefq - 印度  26
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3543
-      - 🇺🇸 US_59 | 7.68Mb
-      - 🇮🇳 github.com/freefq - 印度  28
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4997
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_931
-      - Relay_🇬🇧GB-🇬🇧GB_1910
-      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 43
-      - 🇺🇸 US_5027
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5016
-      - 🇺🇸 US_5013
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2913
-      - 🇺🇸 github.com/freefq - 美国Amazon数据中心 39
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5020
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4957
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_646
+      - 🇷🇺 github.com/freefq - 俄罗斯  40
+      - 🇷🇺 github.com/freefq - 俄罗斯  37
+      - 🇩🇪 DE_903
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2861
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
+      - 🇯🇵 JP_2418
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 欧洲  8
+      - 🇺🇸 US_4960
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2863
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_642
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_647
+      - 🇷🇺 github.com/freefq - 俄罗斯莫斯科JustHost 1
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -658,80 +298,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 github.com/freefq - 美国  22
-      - 🇩🇰 github.com/freefq - 丹麦哥本哈根Digital VM 31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5001
-      - 🇳🇱 Pool_🇳🇱NL_2909
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2912
-      - Relay_🇮🇳IN-🇮🇳IN_2238
-      - GB_1911
-      - 🇷🇴 github.com/freefq - 罗马尼亚  6
-      - 🇺🇸 US_58 |27.31Mb
-      - 🇳🇱 NL_42 |52.98Mb
-      - PL_3040
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3544
-      - Relay_🇮🇳IN-🇮🇳IN_2239
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3551
-      - 🇺🇸 github.com/freefq - 美国  5
-      - 🇺🇸 US_60 | 9.04Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4999
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4998
-      - 🇩🇪 DE_934
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_4948
+      - 🇨🇳 github.com/freefq - 北京市亚马逊(Amazon)公司数据中心 36
+      - 🇰🇷 KR_24 |30.98Mb
       - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 4
-      - Relay_🇨🇦CA-🇨🇦CA_571
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_929
-      - 🇩🇪 DE_935
-      - 🇺🇸 US_64 |23.56Mb
-      - 🇷🇺 RU_3476
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_5009
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5018
-      - 🇳🇱 github.com/freefq - 荷兰  17
-      - 🇸🇬 Relay_🇸🇬SG-🇺🇸US_3545
-      - 🇩🇪 DE_23 | 5.40Mb
-      - 🇷🇺 RU_3475
-      - github.com/freefq - 欧洲  8
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_5028
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5024
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5003
-      - 🇷🇺 github.com/freefq - 俄罗斯新西伯利亚JustHost 20
-      - Relay_🇨🇦CA-🇨🇦CA_570
-      - 🇺🇸 US_69 | 7.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5015
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_661
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5023
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5002
-      - github.com/freefq - 波兰  42
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2914
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_930
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5004
-      - Relay_🇬🇧GB-🇬🇧GB_1913
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5000
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3547
-      - github.com/freefq - 波兰  22
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3546
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5033
-      - 🇯🇵 JP_2454
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5035
-      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州博伊顿Microsoft数据中心 33
-      - 🇺🇸 US_4995
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2419
+      - 🇺🇸 github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4951
+      - 🇷🇺 RU_37 | 3.49Mb
+      - 🇳🇱 Pool_🇳🇱NL_2868
+      - 🇺🇸 US_50 | 6.14Mb
+      - PL_2990
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4953
       - 🇷🇺 github.com/freefq - 俄罗斯  44
-      - Relay_🇬🇧GB-🇬🇧GB_1912
-      - Relay_🇨🇦CA-🇨🇦CA_569
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5038
-      - 🇮🇳 github.com/freefq - 印度  26
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_3543
-      - 🇺🇸 US_59 | 7.68Mb
-      - 🇮🇳 github.com/freefq - 印度  28
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4997
-      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_931
-      - Relay_🇬🇧GB-🇬🇧GB_1910
-      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 43
-      - 🇺🇸 US_5027
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5016
-      - 🇺🇸 US_5013
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2913
-      - 🇺🇸 github.com/freefq - 美国Amazon数据中心 39
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_5020
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4957
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_646
+      - 🇷🇺 github.com/freefq - 俄罗斯  40
+      - 🇷🇺 github.com/freefq - 俄罗斯  37
+      - 🇩🇪 DE_903
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2861
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4952
+      - 🇯🇵 JP_2418
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 欧洲  8
+      - 🇺🇸 US_4960
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_2863
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_642
+      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_647
+      - 🇷🇺 github.com/freefq - 俄罗斯莫斯科JustHost 1
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4964
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3280,6 +2875,7 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
+ - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
  - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
@@ -3288,6 +2884,7 @@ rules:
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
  - DOMAIN-SUFFIX,公司,🎯 全球直连
