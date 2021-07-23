@@ -5,141 +5,109 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 github.com/freefq - 美国赛基诺州立大学 25, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇳🇱 NL_3995 |49.99Mb, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+  - {name: 🇭🇰 HK_4486 |11.20Mb, server: az.v2moe.tk, port: 6011, type: vmess, uuid: c94ff2ca-985f-4d0d-959b-0969575a6fdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /jlpfaaK, ws-headers: {Host: aws.jdzz.tk}}
+  - {name: 🇭🇰 HK_4488 |22.90Mb, server: az.v2moe.tk, port: 6001, type: vmess, uuid: e0760970-a622-44ce-c0cc-7e41a12d1404, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /v2, ws-headers: {Host: sg210.wwin.ga}}
+  - {name: 🇭🇰 HK_4494 | 5.82Mb, server: aws.yyds.zeroyyds.cc, port: 443, type: trojan, password: dfd71fd2-39db-48f1-a5b6-9f67dff32133, sni: aws.yyds.zeroyyds.cc}
+  - {name: _746 |40.97Mb, server: t7.ssrsub.one, port: 8443, type: trojan, password: MEw2QWie, sni: t7.ssrsub.one}
   - {name: 🇬🇧 英国(欢迎订阅Youtube破解资源君), server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: GB_2535, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
-  - {name: 罗马(欢迎订阅Youtube破解资源君), server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: HU_2705, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
-  - {name: 罗马(欢迎订阅Youtube破解资源君) 2, server: 195.47.194.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 罗马(欢迎订阅Youtube破解资源君) 3, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 罗马(欢迎订阅Youtube破解资源君) 4, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: _841 | 7.68Mb, server: us2.paopao.cf, port: 443, type: vmess, uuid: 7f6b65e4-6d5b-4137-a1dc-d32f4a810239, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /tgzhucaidan, ws-headers: {Host: us2.paopao.cf}}
-  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: _750 |28.33Mb, server: a7.ssrsub.one, port: 443, type: trojan, password: BFJYOPsk, sni: a7.ssrsub.one}
+  - {name: 🇷🇴 RO_7456 |11.92Mb, server: q2.proxypools.top, port: 8443, type: vmess, uuid: dc2e875c-f7f9-4bb6-beee-91b5295c30cd, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /tg2shenseven, ws-headers: {Host: q2.proxypools.top}}
+  - {name: 🇩🇪 DE_2375 |42.33Mb, server: dg03.xqkj.cloud, port: 1313, type: vmess, uuid: 3bd498ab-4983-4bd9-b4a2-f93c016090ef, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dg03.xqkj.cloud}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 github.com/freefq - 美国赛基诺州立大学 25
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 NL_3995 |49.99Mb
+      - 🇭🇰 HK_4486 |11.20Mb
+      - 🇭🇰 HK_4488 |22.90Mb
+      - 🇭🇰 HK_4494 | 5.82Mb
+      - _746 |40.97Mb
       - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - GB_2535
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - HU_2705
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 罗马(欢迎订阅Youtube破解资源君) 4
-      - _841 | 7.68Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - _750 |28.33Mb
+      - 🇷🇴 RO_7456 |11.92Mb
+      - 🇩🇪 DE_2375 |42.33Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 github.com/freefq - 美国赛基诺州立大学 25
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 NL_3995 |49.99Mb
+      - 🇭🇰 HK_4486 |11.20Mb
+      - 🇭🇰 HK_4488 |22.90Mb
+      - 🇭🇰 HK_4494 | 5.82Mb
+      - _746 |40.97Mb
       - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - GB_2535
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - HU_2705
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 罗马(欢迎订阅Youtube破解资源君) 4
-      - _841 | 7.68Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - _750 |28.33Mb
+      - 🇷🇴 RO_7456 |11.92Mb
+      - 🇩🇪 DE_2375 |42.33Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国赛基诺州立大学 25
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 NL_3995 |49.99Mb
+      - 🇭🇰 HK_4486 |11.20Mb
+      - 🇭🇰 HK_4488 |22.90Mb
+      - 🇭🇰 HK_4494 | 5.82Mb
+      - _746 |40.97Mb
       - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - GB_2535
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - HU_2705
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 罗马(欢迎订阅Youtube破解资源君) 4
-      - _841 | 7.68Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - _750 |28.33Mb
+      - 🇷🇴 RO_7456 |11.92Mb
+      - 🇩🇪 DE_2375 |42.33Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国赛基诺州立大学 25
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 NL_3995 |49.99Mb
+      - 🇭🇰 HK_4486 |11.20Mb
+      - 🇭🇰 HK_4488 |22.90Mb
+      - 🇭🇰 HK_4494 | 5.82Mb
+      - _746 |40.97Mb
       - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - GB_2535
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - HU_2705
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 罗马(欢迎订阅Youtube破解资源君) 4
-      - _841 | 7.68Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - _750 |28.33Mb
+      - 🇷🇴 RO_7456 |11.92Mb
+      - 🇩🇪 DE_2375 |42.33Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 github.com/freefq - 美国赛基诺州立大学 25
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 NL_3995 |49.99Mb
+      - 🇭🇰 HK_4486 |11.20Mb
+      - 🇭🇰 HK_4488 |22.90Mb
+      - 🇭🇰 HK_4494 | 5.82Mb
+      - _746 |40.97Mb
       - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - GB_2535
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - HU_2705
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 罗马(欢迎订阅Youtube破解资源君) 4
-      - _841 | 7.68Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - _750 |28.33Mb
+      - 🇷🇴 RO_7456 |11.92Mb
+      - 🇩🇪 DE_2375 |42.33Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 github.com/freefq - 美国赛基诺州立大学 25
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 NL_3995 |49.99Mb
+      - 🇭🇰 HK_4486 |11.20Mb
+      - 🇭🇰 HK_4488 |22.90Mb
+      - 🇭🇰 HK_4494 | 5.82Mb
+      - _746 |40.97Mb
       - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - GB_2535
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - HU_2705
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 罗马(欢迎订阅Youtube破解资源君) 4
-      - _841 | 7.68Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - _750 |28.33Mb
+      - 🇷🇴 RO_7456 |11.92Mb
+      - 🇩🇪 DE_2375 |42.33Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 github.com/freefq - 美国赛基诺州立大学 25
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 NL_3995 |49.99Mb
+      - 🇭🇰 HK_4486 |11.20Mb
+      - 🇭🇰 HK_4488 |22.90Mb
+      - 🇭🇰 HK_4494 | 5.82Mb
+      - _746 |40.97Mb
       - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - GB_2535
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - HU_2705
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 罗马(欢迎订阅Youtube破解资源君) 4
-      - _841 | 7.68Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - _750 |28.33Mb
+      - 🇷🇴 RO_7456 |11.92Mb
+      - 🇩🇪 DE_2375 |42.33Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -162,18 +130,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 github.com/freefq - 美国赛基诺州立大学 25
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
-      - 🇳🇱 NL_3995 |49.99Mb
+      - 🇭🇰 HK_4486 |11.20Mb
+      - 🇭🇰 HK_4488 |22.90Mb
+      - 🇭🇰 HK_4494 | 5.82Mb
+      - _746 |40.97Mb
       - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - GB_2535
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - HU_2705
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 罗马(欢迎订阅Youtube破解资源君) 4
-      - _841 | 7.68Mb
-      - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2
+      - _750 |28.33Mb
+      - 🇷🇴 RO_7456 |11.92Mb
+      - 🇩🇪 DE_2375 |42.33Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
